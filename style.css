@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
+:root{
+    --primary-color: #742121; 
+    --secundary-color: #8b0101; 
+    --text-color: #ffffff; 
+    --background-color: #000000;
+    --button-hover: #5e5c5c;
+    --font-body: "Ancizar Sans", serif;
+    --font-titulo:"Ancizar Sans", serif; 
+}
+
+/* reset */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+
+}
+/* corpo da pagina*/
+body{ 
+    background-color: var( --background-color);
+    color: var (--text-color);
+    line-height: 1.6;
+}
+
+h3{
+    margin-top: 25px;
+}
+ p{
+    margin-top: 20px;
+ }
+
+ img{
+    max-width: 90%;
+ }
+ /* cabecalho*/
+ headder{
+    background: var(--background-color);
+    color:darkgrey;
+    text-align: center;
+    padding: 22px;
+ }
